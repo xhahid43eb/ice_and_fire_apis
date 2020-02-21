@@ -4,14 +4,6 @@ from books.models.books import Book, Author, Publisher
 from books.models.country import Country
 
 
-class AuthorSerializer(serializers.ModelSerializer):
-    name = serializers.CharField(required=False)
-
-    class Meta:
-        model = Author
-        fields = ("id", "name")
-
-
 class BookSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
     publisher = serializers.SlugRelatedField(slug_field='name', read_only=True)
@@ -55,10 +47,6 @@ class BookSerializer(serializers.ModelSerializer):
             author, status = Author.objects.get_or_create(name=author)
             instance.authors.add(author)
         return instance
-
-
-class TokenSerializer(serializers.Serializer):
-    token = serializers.CharField(max_length=255)
 
 
 class ExternalBooksSerializer(serializers.Serializer):
