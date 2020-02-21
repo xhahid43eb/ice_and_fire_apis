@@ -10,7 +10,8 @@ Completed Guide to setup project from scratch.
 * [Project Setup](#project-setup)
     * [Install, Create and Activate Virtual Environment](#install-create-and-activate-virtual-environment)
     * [Database Setup](#database-setup)
-* [Project Execution](#project-execution)
+    * [Environment Configs Settings](#environment-configs-settings)
+* [Project Execution](#start-development-server)
 ## Environment Setup
 > For this project, we need to install following technologies and tools:
 ### Python3.7
@@ -57,8 +58,13 @@ $ pip install -r requirements.txt
 ```
 mysql> CREATE SCHEMA ice_and_fire DEFAULT CHARACTER SET utf8 ;
 ```
-* Update Database configs in `setting.py` file
-### Project Execution
+### Environment Configs Settings
+```
+$ cp .env.copy .env
+$ sudo nano .env
+```
+update Database configs and save
+### Start Development Server
 ```
 $ python manage.py runserver
 ```
