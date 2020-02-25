@@ -66,6 +66,8 @@ $ sudo nano .env
 update Database configs and save
 ### Start Development Server
 ```
+$ python manage.py migrate
+$ python manage.py loaddata books/fixtures/initial_data.json
 $ python manage.py runserver
 ```
 

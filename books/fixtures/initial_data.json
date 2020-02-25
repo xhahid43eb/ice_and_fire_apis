@@ -1,0 +1,1984 @@
+[
+    {
+        "model": "books.country",
+        "pk": 1,
+        "fields": {
+            "name": "Afghanistan",
+            "country_code": "AF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 2,
+        "fields": {
+            "name": "Albania",
+            "country_code": "AL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 3,
+        "fields": {
+            "name": "Algeria",
+            "country_code": "DZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 4,
+        "fields": {
+            "name": "American Samoa",
+            "country_code": "DS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 5,
+        "fields": {
+            "name": "Andorra",
+            "country_code": "AD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 6,
+        "fields": {
+            "name": "Angola",
+            "country_code": "AO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 7,
+        "fields": {
+            "name": "Anguilla",
+            "country_code": "AI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 8,
+        "fields": {
+            "name": "Antarctica",
+            "country_code": "AQ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 9,
+        "fields": {
+            "name": "Antigua and Barbuda",
+            "country_code": "AG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 10,
+        "fields": {
+            "name": "Argentina",
+            "country_code": "AR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 11,
+        "fields": {
+            "name": "Armenia",
+            "country_code": "AM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 12,
+        "fields": {
+            "name": "Aruba",
+            "country_code": "AW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 13,
+        "fields": {
+            "name": "Australia",
+            "country_code": "AU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 14,
+        "fields": {
+            "name": "Austria",
+            "country_code": "AT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 15,
+        "fields": {
+            "name": "Azerbaijan",
+            "country_code": "AZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 16,
+        "fields": {
+            "name": "Bahamas",
+            "country_code": "BS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 17,
+        "fields": {
+            "name": "Bahrain",
+            "country_code": "BH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 18,
+        "fields": {
+            "name": "Bangladesh",
+            "country_code": "BD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 19,
+        "fields": {
+            "name": "Barbados",
+            "country_code": "BB"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 20,
+        "fields": {
+            "name": "Belarus",
+            "country_code": "BY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 21,
+        "fields": {
+            "name": "Belgium",
+            "country_code": "BE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 22,
+        "fields": {
+            "name": "Belize",
+            "country_code": "BZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 23,
+        "fields": {
+            "name": "Benin",
+            "country_code": "BJ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 24,
+        "fields": {
+            "name": "Bermuda",
+            "country_code": "BM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 25,
+        "fields": {
+            "name": "Bhutan",
+            "country_code": "BT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 26,
+        "fields": {
+            "name": "Bolivia",
+            "country_code": "BO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 27,
+        "fields": {
+            "name": "Bosnia and Herzegovina",
+            "country_code": "BA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 28,
+        "fields": {
+            "name": "Botswana",
+            "country_code": "BW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 29,
+        "fields": {
+            "name": "Bouvet Island",
+            "country_code": "BV"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 30,
+        "fields": {
+            "name": "Brazil",
+            "country_code": "BR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 31,
+        "fields": {
+            "name": "British Indian Ocean Territory",
+            "country_code": "IO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 32,
+        "fields": {
+            "name": "Brunei Darussalam",
+            "country_code": "BN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 33,
+        "fields": {
+            "name": "Bulgaria",
+            "country_code": "BG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 34,
+        "fields": {
+            "name": "Burkina Faso",
+            "country_code": "BF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 35,
+        "fields": {
+            "name": "Burundi",
+            "country_code": "BI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 36,
+        "fields": {
+            "name": "Cambodia",
+            "country_code": "KH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 37,
+        "fields": {
+            "name": "Cameroon",
+            "country_code": "CM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 38,
+        "fields": {
+            "name": "Canada",
+            "country_code": "CA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 39,
+        "fields": {
+            "name": "Cape Verde",
+            "country_code": "CV"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 40,
+        "fields": {
+            "name": "Cayman Islands",
+            "country_code": "KY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 41,
+        "fields": {
+            "name": "Central African Republic",
+            "country_code": "CF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 42,
+        "fields": {
+            "name": "Chad",
+            "country_code": "TD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 43,
+        "fields": {
+            "name": "Chile",
+            "country_code": "CL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 44,
+        "fields": {
+            "name": "China",
+            "country_code": "CN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 45,
+        "fields": {
+            "name": "Christmas Island",
+            "country_code": "CX"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 46,
+        "fields": {
+            "name": "Cocos (Keeling) Islands",
+            "country_code": "CC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 47,
+        "fields": {
+            "name": "Colombia",
+            "country_code": "CO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 48,
+        "fields": {
+            "name": "Comoros",
+            "country_code": "KM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 49,
+        "fields": {
+            "name": "Democratic Republic of the Congo",
+            "country_code": "CD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 50,
+        "fields": {
+            "name": "Republic of Congo",
+            "country_code": "CG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 51,
+        "fields": {
+            "name": "Cook Islands",
+            "country_code": "CK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 52,
+        "fields": {
+            "name": "Costa Rica",
+            "country_code": "CR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 53,
+        "fields": {
+            "name": "Croatia (Hrvatska)",
+            "country_code": "HR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 54,
+        "fields": {
+            "name": "Cuba",
+            "country_code": "CU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 55,
+        "fields": {
+            "name": "Cyprus",
+            "country_code": "CY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 56,
+        "fields": {
+            "name": "Czech Republic",
+            "country_code": "CZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 57,
+        "fields": {
+            "name": "Denmark",
+            "country_code": "DK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 58,
+        "fields": {
+            "name": "Djibouti",
+            "country_code": "DJ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 59,
+        "fields": {
+            "name": "Dominica",
+            "country_code": "DM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 60,
+        "fields": {
+            "name": "Dominican Republic",
+            "country_code": "DO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 61,
+        "fields": {
+            "name": "East Timor",
+            "country_code": "TP"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 62,
+        "fields": {
+            "name": "Ecuador",
+            "country_code": "EC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 68,
+        "fields": {
+            "name": "Egypt",
+            "country_code": "EG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 69,
+        "fields": {
+            "name": "El Salvador",
+            "country_code": "SV"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 70,
+        "fields": {
+            "name": "Equatorial Guinea",
+            "country_code": "GQ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 71,
+        "fields": {
+            "name": "Eritrea",
+            "country_code": "ER"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 72,
+        "fields": {
+            "name": "Estonia",
+            "country_code": "EE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 73,
+        "fields": {
+            "name": "Ethiopia",
+            "country_code": "ET"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 74,
+        "fields": {
+            "name": "Falkland Islands (Malvinas)",
+            "country_code": "FK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 75,
+        "fields": {
+            "name": "Faroe Islands",
+            "country_code": "FO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 76,
+        "fields": {
+            "name": "Fiji",
+            "country_code": "FJ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 77,
+        "fields": {
+            "name": "Finland",
+            "country_code": "FI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 78,
+        "fields": {
+            "name": "France",
+            "country_code": "FR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 79,
+        "fields": {
+            "name": "France, Metropolitan",
+            "country_code": "FX"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 80,
+        "fields": {
+            "name": "French Guiana",
+            "country_code": "GF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 81,
+        "fields": {
+            "name": "French Polynesia",
+            "country_code": "PF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 82,
+        "fields": {
+            "name": "French Southern Territories",
+            "country_code": "TF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 83,
+        "fields": {
+            "name": "Gabon",
+            "country_code": "GA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 84,
+        "fields": {
+            "name": "Gambia",
+            "country_code": "GM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 85,
+        "fields": {
+            "name": "Georgia",
+            "country_code": "GE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 86,
+        "fields": {
+            "name": "Germany",
+            "country_code": "DE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 87,
+        "fields": {
+            "name": "Ghana",
+            "country_code": "GH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 88,
+        "fields": {
+            "name": "Gibraltar",
+            "country_code": "GI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 89,
+        "fields": {
+            "name": "Guernsey",
+            "country_code": "GK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 90,
+        "fields": {
+            "name": "Greece",
+            "country_code": "GR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 91,
+        "fields": {
+            "name": "Greenland",
+            "country_code": "GL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 92,
+        "fields": {
+            "name": "Grenada",
+            "country_code": "GD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 93,
+        "fields": {
+            "name": "Guadeloupe",
+            "country_code": "GP"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 94,
+        "fields": {
+            "name": "Guam",
+            "country_code": "GU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 95,
+        "fields": {
+            "name": "Guatemala",
+            "country_code": "GT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 96,
+        "fields": {
+            "name": "Guinea",
+            "country_code": "GN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 97,
+        "fields": {
+            "name": "Guinea-Bissau",
+            "country_code": "GW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 98,
+        "fields": {
+            "name": "Guyana",
+            "country_code": "GY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 99,
+        "fields": {
+            "name": "Haiti",
+            "country_code": "HT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 100,
+        "fields": {
+            "name": "Heard and Mc Donald Islands",
+            "country_code": "HM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 101,
+        "fields": {
+            "name": "Honduras",
+            "country_code": "HN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 102,
+        "fields": {
+            "name": "Hong Kong",
+            "country_code": "HK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 103,
+        "fields": {
+            "name": "Hungary",
+            "country_code": "HU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 104,
+        "fields": {
+            "name": "Iceland",
+            "country_code": "IS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 105,
+        "fields": {
+            "name": "India",
+            "country_code": "IN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 106,
+        "fields": {
+            "name": "Isle of Man",
+            "country_code": "IM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 107,
+        "fields": {
+            "name": "Indonesia",
+            "country_code": "ID"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 108,
+        "fields": {
+            "name": "Iran (Islamic Republic of)",
+            "country_code": "IR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 109,
+        "fields": {
+            "name": "Iraq",
+            "country_code": "IQ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 110,
+        "fields": {
+            "name": "Ireland",
+            "country_code": "IE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 111,
+        "fields": {
+            "name": "Israel",
+            "country_code": "IL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 112,
+        "fields": {
+            "name": "Italy",
+            "country_code": "IT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 113,
+        "fields": {
+            "name": "Ivory Coast",
+            "country_code": "CI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 114,
+        "fields": {
+            "name": "Jersey",
+            "country_code": "JE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 115,
+        "fields": {
+            "name": "Jamaica",
+            "country_code": "JM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 116,
+        "fields": {
+            "name": "Japan",
+            "country_code": "JP"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 117,
+        "fields": {
+            "name": "Jordan",
+            "country_code": "JO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 118,
+        "fields": {
+            "name": "Kazakhstan",
+            "country_code": "KZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 119,
+        "fields": {
+            "name": "Kenya",
+            "country_code": "KE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 120,
+        "fields": {
+            "name": "Kiribati",
+            "country_code": "KI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 121,
+        "fields": {
+            "name": "Korea, Democratic People's Republic of",
+            "country_code": "KP"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 122,
+        "fields": {
+            "name": "Korea, Republic of",
+            "country_code": "KR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 123,
+        "fields": {
+            "name": "Kosovo",
+            "country_code": "XK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 124,
+        "fields": {
+            "name": "Kuwait",
+            "country_code": "KW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 125,
+        "fields": {
+            "name": "Kyrgyzstan",
+            "country_code": "KG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 126,
+        "fields": {
+            "name": "Lao People's Democratic Republic",
+            "country_code": "LA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 127,
+        "fields": {
+            "name": "Latvia",
+            "country_code": "LV"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 128,
+        "fields": {
+            "name": "Lebanon",
+            "country_code": "LB"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 129,
+        "fields": {
+            "name": "Lesotho",
+            "country_code": "LS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 130,
+        "fields": {
+            "name": "Liberia",
+            "country_code": "LR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 131,
+        "fields": {
+            "name": "Libyan Arab Jamahiriya",
+            "country_code": "LY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 132,
+        "fields": {
+            "name": "Liechtenstein",
+            "country_code": "LI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 133,
+        "fields": {
+            "name": "Lithuania",
+            "country_code": "LT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 134,
+        "fields": {
+            "name": "Luxembourg",
+            "country_code": "LU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 135,
+        "fields": {
+            "name": "Macau",
+            "country_code": "MO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 136,
+        "fields": {
+            "name": "North Macedonia",
+            "country_code": "MK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 137,
+        "fields": {
+            "name": "Madagascar",
+            "country_code": "MG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 138,
+        "fields": {
+            "name": "Malawi",
+            "country_code": "MW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 139,
+        "fields": {
+            "name": "Malaysia",
+            "country_code": "MY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 140,
+        "fields": {
+            "name": "Maldives",
+            "country_code": "MV"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 141,
+        "fields": {
+            "name": "Mali",
+            "country_code": "ML"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 142,
+        "fields": {
+            "name": "Malta",
+            "country_code": "MT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 143,
+        "fields": {
+            "name": "Marshall Islands",
+            "country_code": "MH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 144,
+        "fields": {
+            "name": "Martinique",
+            "country_code": "MQ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 145,
+        "fields": {
+            "name": "Mauritania",
+            "country_code": "MR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 146,
+        "fields": {
+            "name": "Mauritius",
+            "country_code": "MU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 147,
+        "fields": {
+            "name": "Mayotte",
+            "country_code": "TY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 148,
+        "fields": {
+            "name": "Mexico",
+            "country_code": "MX"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 149,
+        "fields": {
+            "name": "Micronesia, Federated States of",
+            "country_code": "FM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 150,
+        "fields": {
+            "name": "Moldova, Republic of",
+            "country_code": "MD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 151,
+        "fields": {
+            "name": "Monaco",
+            "country_code": "MC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 152,
+        "fields": {
+            "name": "Mongolia",
+            "country_code": "MN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 153,
+        "fields": {
+            "name": "Montenegro",
+            "country_code": "ME"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 154,
+        "fields": {
+            "name": "Montserrat",
+            "country_code": "MS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 155,
+        "fields": {
+            "name": "Morocco",
+            "country_code": "MA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 156,
+        "fields": {
+            "name": "Mozambique",
+            "country_code": "MZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 157,
+        "fields": {
+            "name": "Myanmar",
+            "country_code": "MM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 158,
+        "fields": {
+            "name": "Namibia",
+            "country_code": "NA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 159,
+        "fields": {
+            "name": "Nauru",
+            "country_code": "NR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 160,
+        "fields": {
+            "name": "Nepal",
+            "country_code": "NP"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 161,
+        "fields": {
+            "name": "Netherlands",
+            "country_code": "NL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 162,
+        "fields": {
+            "name": "Netherlands Antilles",
+            "country_code": "AN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 163,
+        "fields": {
+            "name": "New Caledonia",
+            "country_code": "NC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 164,
+        "fields": {
+            "name": "New Zealand",
+            "country_code": "NZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 165,
+        "fields": {
+            "name": "Nicaragua",
+            "country_code": "NI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 166,
+        "fields": {
+            "name": "Niger",
+            "country_code": "NE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 167,
+        "fields": {
+            "name": "Nigeria",
+            "country_code": "NG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 168,
+        "fields": {
+            "name": "Niue",
+            "country_code": "NU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 169,
+        "fields": {
+            "name": "Norfolk Island",
+            "country_code": "NF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 170,
+        "fields": {
+            "name": "Northern Mariana Islands",
+            "country_code": "MP"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 171,
+        "fields": {
+            "name": "Norway",
+            "country_code": "NO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 172,
+        "fields": {
+            "name": "Oman",
+            "country_code": "OM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 173,
+        "fields": {
+            "name": "Pakistan",
+            "country_code": "PK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 174,
+        "fields": {
+            "name": "Palau",
+            "country_code": "PW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 175,
+        "fields": {
+            "name": "Palestine",
+            "country_code": "PS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 176,
+        "fields": {
+            "name": "Panama",
+            "country_code": "PA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 177,
+        "fields": {
+            "name": "Papua New Guinea",
+            "country_code": "PG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 178,
+        "fields": {
+            "name": "Paraguay",
+            "country_code": "PY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 179,
+        "fields": {
+            "name": "Peru",
+            "country_code": "PE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 180,
+        "fields": {
+            "name": "Philippines",
+            "country_code": "PH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 181,
+        "fields": {
+            "name": "Pitcairn",
+            "country_code": "PN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 182,
+        "fields": {
+            "name": "Poland",
+            "country_code": "PL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 183,
+        "fields": {
+            "name": "Portugal",
+            "country_code": "PT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 184,
+        "fields": {
+            "name": "Puerto Rico",
+            "country_code": "PR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 185,
+        "fields": {
+            "name": "Qatar",
+            "country_code": "QA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 186,
+        "fields": {
+            "name": "Reunion",
+            "country_code": "RE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 187,
+        "fields": {
+            "name": "Romania",
+            "country_code": "RO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 188,
+        "fields": {
+            "name": "Russian Federation",
+            "country_code": "RU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 189,
+        "fields": {
+            "name": "Rwanda",
+            "country_code": "RW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 190,
+        "fields": {
+            "name": "Saint Kitts and Nevis",
+            "country_code": "KN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 191,
+        "fields": {
+            "name": "Saint Lucia",
+            "country_code": "LC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 192,
+        "fields": {
+            "name": "Saint Vincent and the Grenadines",
+            "country_code": "VC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 193,
+        "fields": {
+            "name": "Samoa",
+            "country_code": "WS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 194,
+        "fields": {
+            "name": "San Marino",
+            "country_code": "SM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 195,
+        "fields": {
+            "name": "Sao Tome and Principe",
+            "country_code": "ST"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 196,
+        "fields": {
+            "name": "Saudi Arabia",
+            "country_code": "SA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 197,
+        "fields": {
+            "name": "Senegal",
+            "country_code": "SN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 198,
+        "fields": {
+            "name": "Serbia",
+            "country_code": "RS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 199,
+        "fields": {
+            "name": "Seychelles",
+            "country_code": "SC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 200,
+        "fields": {
+            "name": "Sierra Leone",
+            "country_code": "SL"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 201,
+        "fields": {
+            "name": "Singapore",
+            "country_code": "SG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 202,
+        "fields": {
+            "name": "Slovakia",
+            "country_code": "SK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 203,
+        "fields": {
+            "name": "Slovenia",
+            "country_code": "SI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 204,
+        "fields": {
+            "name": "Solomon Islands",
+            "country_code": "SB"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 205,
+        "fields": {
+            "name": "Somalia",
+            "country_code": "SO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 206,
+        "fields": {
+            "name": "South Africa",
+            "country_code": "ZA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 207,
+        "fields": {
+            "name": "South Georgia South Sandwich Islands",
+            "country_code": "GS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 208,
+        "fields": {
+            "name": "South Sudan",
+            "country_code": "SS"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 209,
+        "fields": {
+            "name": "Spain",
+            "country_code": "ES"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 210,
+        "fields": {
+            "name": "Sri Lanka",
+            "country_code": "LK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 211,
+        "fields": {
+            "name": "St. Helena",
+            "country_code": "SH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 212,
+        "fields": {
+            "name": "St. Pierre and Miquelon",
+            "country_code": "PM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 213,
+        "fields": {
+            "name": "Sudan",
+            "country_code": "SD"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 214,
+        "fields": {
+            "name": "Suriname",
+            "country_code": "SR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 215,
+        "fields": {
+            "name": "Svalbard and Jan Mayen Islands",
+            "country_code": "SJ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 216,
+        "fields": {
+            "name": "Swaziland",
+            "country_code": "SZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 217,
+        "fields": {
+            "name": "Sweden",
+            "country_code": "SE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 218,
+        "fields": {
+            "name": "Switzerland",
+            "country_code": "CH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 219,
+        "fields": {
+            "name": "Syrian Arab Republic",
+            "country_code": "SY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 220,
+        "fields": {
+            "name": "Taiwan",
+            "country_code": "TW"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 221,
+        "fields": {
+            "name": "Tajikistan",
+            "country_code": "TJ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 222,
+        "fields": {
+            "name": "Tanzania, United Republic of",
+            "country_code": "TZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 223,
+        "fields": {
+            "name": "Thailand",
+            "country_code": "TH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 224,
+        "fields": {
+            "name": "Togo",
+            "country_code": "TG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 225,
+        "fields": {
+            "name": "Tokelau",
+            "country_code": "TK"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 226,
+        "fields": {
+            "name": "Tonga",
+            "country_code": "TO"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 227,
+        "fields": {
+            "name": "Trinidad and Tobago",
+            "country_code": "TT"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 228,
+        "fields": {
+            "name": "Tunisia",
+            "country_code": "TN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 229,
+        "fields": {
+            "name": "Turkey",
+            "country_code": "TR"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 230,
+        "fields": {
+            "name": "Turkmenistan",
+            "country_code": "TM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 231,
+        "fields": {
+            "name": "Turks and Caicos Islands",
+            "country_code": "TC"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 232,
+        "fields": {
+            "name": "Tuvalu",
+            "country_code": "TV"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 233,
+        "fields": {
+            "name": "Uganda",
+            "country_code": "UG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 234,
+        "fields": {
+            "name": "Ukraine",
+            "country_code": "UA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 235,
+        "fields": {
+            "name": "United Arab Emirates",
+            "country_code": "AE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 236,
+        "fields": {
+            "name": "United Kingdom",
+            "country_code": "GB"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 237,
+        "fields": {
+            "name": "United States",
+            "country_code": "US"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 238,
+        "fields": {
+            "name": "United States minor outlying islands",
+            "country_code": "UM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 239,
+        "fields": {
+            "name": "Uruguay",
+            "country_code": "UY"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 240,
+        "fields": {
+            "name": "Uzbekistan",
+            "country_code": "UZ"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 241,
+        "fields": {
+            "name": "Vanuatu",
+            "country_code": "VU"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 242,
+        "fields": {
+            "name": "Vatican City State",
+            "country_code": "VA"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 243,
+        "fields": {
+            "name": "Venezuela",
+            "country_code": "VE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 244,
+        "fields": {
+            "name": "Vietnam",
+            "country_code": "VN"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 245,
+        "fields": {
+            "name": "Virgin Islands (British)",
+            "country_code": "VG"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 246,
+        "fields": {
+            "name": "Virgin Islands (U.S.)",
+            "country_code": "VI"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 247,
+        "fields": {
+            "name": "Wallis and Futuna Islands",
+            "country_code": "WF"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 248,
+        "fields": {
+            "name": "Western Sahara",
+            "country_code": "EH"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 249,
+        "fields": {
+            "name": "Yemen",
+            "country_code": "YE"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 250,
+        "fields": {
+            "name": "Zambia",
+            "country_code": "ZM"
+        }
+    },
+    {
+        "model": "books.country",
+        "pk": 251,
+        "fields": {
+            "name": "Zimbabwe",
+            "country_code": "ZW"
+        }
+    },
+    {
+        "model": "books.author",
+        "pk": 1,
+        "fields": {
+            "name": "George R. R. Martin"
+        }
+    },
+    {
+        "model": "books.publisher",
+        "pk": 1,
+        "fields": {
+            "name": "Acme Books"
+        }
+    }
+]

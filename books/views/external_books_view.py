@@ -7,11 +7,11 @@ from books.serializers import ExternalBooksSerializer
 
 class ListIceAndFireBooksView(generics.ListAPIView):
 
-    def get_queryset(self, request):
+    def get_data_from_iceandfire_api(self, request):
         res = get("https://www.anapioficeandfire.com/api/books", request.query_params)
         return res.json()
 
     def list(self, request, *args, **kwargs):
-        queryset = self.get_queryset(request)
-        books_list = ExternalBooksSerializer(queryset, many=True)
+        data = self.get_data_from_iceandfire_api(request)
+        books_list = ExternalBooksSerializer(data, many=True)
         return make_formatted_response(status.HTTP_200_OK, books_list.data)

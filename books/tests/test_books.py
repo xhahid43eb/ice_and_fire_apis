@@ -9,6 +9,7 @@ from books.serializers import BookSerializer
 class BaseViewTest(APITestCase):
     client = APIClient()
     book_id = None
+    fixtures = ['initial_data.json']
 
     def setUp(self):
         self.create_book()
@@ -18,14 +19,20 @@ class BaseViewTest(APITestCase):
             reverse("books-list"),
             {
                 "name": "Game of thrones",
-                "isbn": "978-0553108032",
+                "isbn": "978-0553108035",
                 "authors": [
-                    "George R. R. Martin"
+                    {
+                        "name": "George R. R. Martin"
+                    }
                 ],
                 "number_of_pages": 768,
-                "publisher": "Bantam Books",
-                "country": "United States",
-                "release_date": "1999-02-02T00:00:00"
+                "publisher": {
+                    "name": "Acme Books"
+                },
+                "country": {
+                    "name": "Afghanistan"
+                },
+                "release_date": "1999-02-02T00:00:00Z"
             },
             format='json'
         )
@@ -60,14 +67,20 @@ class BookDetailsTest(BaseViewTest):
             reverse("book-details", kwargs={"pk": self.book_id, }),
             {
                 "name": "Game of thrones",
-                "isbn": "978-0553108084",
+                "isbn": "978-0553108035",
                 "authors": [
-                    "George R. R. Martin"
+                    {
+                        "name": "George R. R. Martin"
+                    }
                 ],
                 "number_of_pages": 768,
-                "publisher": "Bantam Books",
-                "country": "United States",
-                "release_date": "1999-02-02T00:00:00"
+                "publisher": {
+                    "name": "Acme Books"
+                },
+                "country": {
+                    "name": "Pakistan"
+                },
+                "release_date": "1999-02-02T00:00:00Z"
             },
             format='json'
         )

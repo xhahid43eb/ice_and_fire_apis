@@ -25,7 +25,7 @@ class ListCreateBooksView(generics.ListCreateAPIView):
         return make_formatted_response(status.HTTP_200_OK, serializer.data)
 
     def create(self, request, *args, **kwargs):
-        serializer = BookSerializer(data=request.data, context={'request': request})
+        serializer = BookSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return make_formatted_response(status.HTTP_201_CREATED, serializer.data)

@@ -4,44 +4,62 @@ from books.models.books import Book, Author, Publisher
 from books.models.country import Country
 
 
+class AuthorSerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField(max_length=250)
+
+    class Meta:
+        model = Author
+        fields = ('id', 'name')
+
+
+class PublisherSerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField(max_length=250)
+
+    class Meta:
+        model = Publisher
+        fields = ('id', 'name')
+
+
+class CountrySerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField(max_length=250)
+
+    class Meta:
+        model = Country
+        fields = ('id', 'name')
+
+
 class BookSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
-    publisher = serializers.SlugRelatedField(slug_field='name', read_only=True)
-    country = serializers.SlugRelatedField(slug_field='name', read_only=True)
-    authors = serializers.SlugRelatedField(slug_field='name', many=True, read_only=True)
+    publisher = PublisherSerializer()
+    country = CountrySerializer()
+    authors = AuthorSerializer(many=True)
 
     class Meta:
         model = Book
         fields = ("id", "name", "isbn", "authors", "number_of_pages", "publisher", "country", "release_date")
 
-    def to_representation(self, instance):
-        data = super(BookSerializer, self).to_representation(instance)
-
-        return data
-
     def create(self, validated_data):
-        request = self.context['request']
-        country, _ = Country.objects.get_or_create(name=request.data.get('country'))
-        publisher, _ = Publisher.objects.get_or_create(name=request.data.get('publisher'))
+        authors = validated_data.pop('authors')
+        country = Country.objects.get(**validated_data.pop('country'))
+        publisher = Publisher.objects.get(**validated_data.pop('publisher'))
         instance = Book.objects.create(country=country, publisher=publisher, **validated_data)
-        authors = request.data.get('authors')
         for author in authors:
-            author, status = Author.objects.get_or_create(name=author)
+            author = Author.objects.get(**author)
             instance.authors.add(author)
         return instance
 
     def update(self, instance, validated_data):
-        request = self.context['request']
         instance.name = validated_data.get('name', instance.name)
         instance.isbn = validated_data.get('isbn', instance.isbn)
         instance.number_of_pages = validated_data.get('number_of_pages', instance.number_of_pages)
         instance.release_date = validated_data.get('release_date', instance.release_date)
-        country, _ = Country.objects.get_or_create(name=request.data.get('country'))
-        instance.country = country
-        publisher, _ = Publisher.objects.get_or_create(name=request.data.get('publisher'))
-        instance.publisher = publisher
+        instance.country = Country.objects.get(**validated_data.get('country', instance.country))
+        instance.publisher = Publisher.objects.get(**validated_data.get('publisher', instance.publisher))
         instance.save()
-        authors = request.data.get('authors')
+        authors = validated_data.get('authors', instance.authors)
         instance.authors.clear()
         for author in authors:
             author, status = Author.objects.get_or_create(name=author)

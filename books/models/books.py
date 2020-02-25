@@ -28,9 +28,3 @@ class Book(models.Model):
 
     def __str__(self):
         return self.name
-
-    def find_or_create(self):
-        print(self.country)
-
-    # def get_authors(self):
-    #     return loads(self.authors.replace("'", '"'))

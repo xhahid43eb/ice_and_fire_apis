@@ -17,7 +17,7 @@ class GetPutDeleteBookView(generics.RetrieveUpdateDestroyAPIView):
 
     def update(self, request, *args, **kwargs):
         queryset = self.get_queryset()
-        serializer = BookSerializer(queryset, data=request.data, context={'request': request})
+        serializer = BookSerializer(queryset, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return make_formatted_response(
