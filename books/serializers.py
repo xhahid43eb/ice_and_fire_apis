@@ -33,9 +33,9 @@ class CountrySerializer(serializers.ModelSerializer):
 
 class BookSerializer(serializers.ModelSerializer):
     id = serializers.IntegerField(read_only=True)
-    publisher = PublisherSerializer()
-    country = CountrySerializer()
-    authors = AuthorSerializer(many=True)
+    publisher = PublisherSerializer(required=True)
+    country = CountrySerializer(required=True)
+    authors = AuthorSerializer(required=True, many=True)
 
     class Meta:
         model = Book
