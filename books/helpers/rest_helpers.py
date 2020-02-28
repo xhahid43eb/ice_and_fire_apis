@@ -4,7 +4,7 @@ from rest_framework.response import Response
 def make_formatted_response(status_code, data=None, message=None, error=None):
     if error:
         formatted_response = {'status_code': status_code,
-                              'status': '',
+                              'status': 'failure',
                               'error': error
                               }
     else:
